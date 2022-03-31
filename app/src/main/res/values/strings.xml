@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Constraint Layout Sample</string>
+    <string name="tEmail">Email</string>
+    <string name="tPassword">Password</string>
+    <string name="bsignin">Sign-In</string>
+    <string name="login">gambar</string>
+    <string name="tData">Data Anda</string>
+    <string name="tEmail2">Email: </string>
+    <string name="tPassword2">Password: </string>
+    <string name="txemail">Ini hasil Email</string>
+    <string name="txpassword">Ini hasil Password</string>
+    <string name="label2">Login berhasil</string>
+
+    <string name="lihatdata">Lihat Data</string>
+    <string name="editdata">Edit Data</string>
+    <string name="datakontak">Data Kontak</string>
+    <string name="namaitem">Nama Item</string>
+    <string name="detailkontak">Detail Kontak</string>
+    <string name="nama">Nama</string>
+    <string name="notel">Nomor Telepon</string>
+
+</resources>

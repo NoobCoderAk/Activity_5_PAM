@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -82,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                         b.putString("b", password.trim());
 
                         //membuat objek intent berpindah activity dari mainactivity ke activityHasil
-                        Intent i = new Intent(getApplicationContext(), ActivityLihatData.class);
+                        Intent i = new Intent(getApplicationContext(), Home_Activity.class);
 
                         //memasukkan bundle kedalam intent untuk dikirim ke ActivityHasil
                         i.putExtras(b);
@@ -103,5 +104,11 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.popup_menu, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 }
